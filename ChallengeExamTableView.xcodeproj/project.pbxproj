@@ -13,6 +13,17 @@
 		2557099F2499D8040056AAF3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2557099D2499D8040056AAF3 /* Main.storyboard */; };
 		255709A12499D8090056AAF3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 255709A02499D8090056AAF3 /* Assets.xcassets */; };
 		255709A42499D8090056AAF3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 255709A22499D8090056AAF3 /* LaunchScreen.storyboard */; };
+		255709B12499D93C0056AAF3 /* CellViewTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709B02499D93C0056AAF3 /* CellViewTable.swift */; };
+		255709B32499D9690056AAF3 /* ViewSexo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709B22499D9690056AAF3 /* ViewSexo.swift */; };
+		255709B52499D9840056AAF3 /* ViewTelefono.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709B42499D9840056AAF3 /* ViewTelefono.swift */; };
+		255709B72499D99A0056AAF3 /* ViewColores.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709B62499D99A0056AAF3 /* ViewColores.swift */; };
+		255709B92499D9B70056AAF3 /* ViewCamara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709B82499D9B70056AAF3 /* ViewCamara.swift */; };
+		255709BB2499D9DF0056AAF3 /* ViewFoto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709BA2499D9DF0056AAF3 /* ViewFoto.swift */; };
+		255709BD2499D9FD0056AAF3 /* ViewNombre.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709BC2499D9FD0056AAF3 /* ViewNombre.swift */; };
+		255709BF2499DA140056AAF3 /* ViewFecha.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709BE2499DA140056AAF3 /* ViewFecha.swift */; };
+		255709C12499DA3E0056AAF3 /* Extensiones.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709C02499DA3E0056AAF3 /* Extensiones.swift */; };
+		255709C32499DA600056AAF3 /* AllClasesStr.swift in Sources */ = {isa = PBXBuildFile; fileRef = 255709C22499DA600056AAF3 /* AllClasesStr.swift */; };
+		255709C52499DAB00056AAF3 /* iconProfilePdf.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 255709C42499DAB00056AAF3 /* iconProfilePdf.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +35,17 @@
 		255709A02499D8090056AAF3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		255709A32499D8090056AAF3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		255709A52499D8090056AAF3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		255709B02499D93C0056AAF3 /* CellViewTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellViewTable.swift; sourceTree = "<group>"; };
+		255709B22499D9690056AAF3 /* ViewSexo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewSexo.swift; sourceTree = "<group>"; };
+		255709B42499D9840056AAF3 /* ViewTelefono.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewTelefono.swift; sourceTree = "<group>"; };
+		255709B62499D99A0056AAF3 /* ViewColores.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewColores.swift; sourceTree = "<group>"; };
+		255709B82499D9B70056AAF3 /* ViewCamara.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewCamara.swift; sourceTree = "<group>"; };
+		255709BA2499D9DF0056AAF3 /* ViewFoto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFoto.swift; sourceTree = "<group>"; };
+		255709BC2499D9FD0056AAF3 /* ViewNombre.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewNombre.swift; sourceTree = "<group>"; };
+		255709BE2499DA140056AAF3 /* ViewFecha.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewFecha.swift; sourceTree = "<group>"; };
+		255709C02499DA3E0056AAF3 /* Extensiones.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensiones.swift; sourceTree = "<group>"; };
+		255709C22499DA600056AAF3 /* AllClasesStr.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllClasesStr.swift; sourceTree = "<group>"; };
+		255709C42499DAB00056AAF3 /* iconProfilePdf.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = iconProfilePdf.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +78,66 @@
 		255709962499D8030056AAF3 /* ChallengeExamTableView */ = {
 			isa = PBXGroup;
 			children = (
+				255709AE2499D87A0056AAF3 /* View */,
+				255709AD2499D8600056AAF3 /* Model */,
+				255709AC2499D8560056AAF3 /* Presenter */,
+				255709AB2499D8480056AAF3 /* Utils */,
 				255709972499D8030056AAF3 /* AppDelegate.swift */,
 				255709992499D8030056AAF3 /* SceneDelegate.swift */,
-				2557099B2499D8030056AAF3 /* ViewController.swift */,
+				255709C42499DAB00056AAF3 /* iconProfilePdf.pdf */,
 				2557099D2499D8040056AAF3 /* Main.storyboard */,
 				255709A02499D8090056AAF3 /* Assets.xcassets */,
 				255709A22499D8090056AAF3 /* LaunchScreen.storyboard */,
 				255709A52499D8090056AAF3 /* Info.plist */,
 			);
 			path = ChallengeExamTableView;
+			sourceTree = "<group>";
+		};
+		255709AB2499D8480056AAF3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				255709C02499DA3E0056AAF3 /* Extensiones.swift */,
+				255709C22499DA600056AAF3 /* AllClasesStr.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		255709AC2499D8560056AAF3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		255709AD2499D8600056AAF3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				255709B22499D9690056AAF3 /* ViewSexo.swift */,
+				255709B42499D9840056AAF3 /* ViewTelefono.swift */,
+				255709B62499D99A0056AAF3 /* ViewColores.swift */,
+				255709B82499D9B70056AAF3 /* ViewCamara.swift */,
+				255709BA2499D9DF0056AAF3 /* ViewFoto.swift */,
+				255709BC2499D9FD0056AAF3 /* ViewNombre.swift */,
+				255709BE2499DA140056AAF3 /* ViewFecha.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		255709AE2499D87A0056AAF3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				255709AF2499D8900056AAF3 /* TableVIewPrincipal */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		255709AF2499D8900056AAF3 /* TableVIewPrincipal */ = {
+			isa = PBXGroup;
+			children = (
+				2557099B2499D8030056AAF3 /* ViewController.swift */,
+				255709B02499D93C0056AAF3 /* CellViewTable.swift */,
+			);
+			path = TableVIewPrincipal;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +200,7 @@
 			files = (
 				255709A42499D8090056AAF3 /* LaunchScreen.storyboard in Resources */,
 				255709A12499D8090056AAF3 /* Assets.xcassets in Resources */,
+				255709C52499DAB00056AAF3 /* iconProfilePdf.pdf in Resources */,
 				2557099F2499D8040056AAF3 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +213,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				2557099C2499D8030056AAF3 /* ViewController.swift in Sources */,
+				255709B12499D93C0056AAF3 /* CellViewTable.swift in Sources */,
+				255709B52499D9840056AAF3 /* ViewTelefono.swift in Sources */,
+				255709B92499D9B70056AAF3 /* ViewCamara.swift in Sources */,
+				255709C32499DA600056AAF3 /* AllClasesStr.swift in Sources */,
+				255709B72499D99A0056AAF3 /* ViewColores.swift in Sources */,
+				255709BD2499D9FD0056AAF3 /* ViewNombre.swift in Sources */,
 				255709982499D8030056AAF3 /* AppDelegate.swift in Sources */,
+				255709B32499D9690056AAF3 /* ViewSexo.swift in Sources */,
 				2557099A2499D8030056AAF3 /* SceneDelegate.swift in Sources */,
+				255709C12499DA3E0056AAF3 /* Extensiones.swift in Sources */,
+				255709BF2499DA140056AAF3 /* ViewFecha.swift in Sources */,
+				255709BB2499D9DF0056AAF3 /* ViewFoto.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +378,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = challengeTableView.ChallengeExamTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +396,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = challengeTableView.ChallengeExamTableView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
